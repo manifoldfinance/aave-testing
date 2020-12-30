@@ -1,6 +1,8 @@
-# Aave Simulator
+# Aave Protocol Simulator
 
-## JOB01
+> Integration Testing
+
+### Usage
 
 - Select an active borrower on the protocol at the selected block height (with some collateral and borrowings).
 - Borrow another currency apart from the ones he is borrowing at the moment, moving his HF to exactly 1.1.
@@ -8,15 +10,13 @@
 - With a different account, liquidate the user.
 - There is freedom to select the new borrowed currency.
 
-## JOB02
+## Secondary
 
 - Select an active depositor on the protocol at the selected block height (with deposits, can be used as collateral or not).
 - Transfer all of his available aTokens to transfer to another user account.
 - With that user, redeem the aTokens, deposit again, and borrow another currency at stable rate.
 
-## Pre requirements
-
-### GANACHE
+## Install
 
 ```
   npm install -g ganache
@@ -31,7 +31,7 @@
   DEBUG=false
 ```
 
-## Start JOBS
+## Execute Simulation
 
 ```
   npm start

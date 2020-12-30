@@ -41,6 +41,6 @@
 
 Update the file simulations.json and set to `true` the value disabled.
 
-### System's architecture
+### License 
 
-![architecture](/.statics/diagram.png)
+Apache-2.0

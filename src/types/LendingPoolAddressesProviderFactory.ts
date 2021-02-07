@@ -14,9 +14,9 @@ export class LendingPoolAddressesProviderFactory extends ContractFactory {
   }
 
   deploy(overrides?: Overrides): Promise<LendingPoolAddressesProvider> {
-    return super.deploy(overrides || {}) as Promise<
-      LendingPoolAddressesProvider
-    >;
+    return super.deploy(
+      overrides || {}
+    ) as Promise<LendingPoolAddressesProvider>;
   }
   getDeployTransaction(overrides?: Overrides): TransactionRequest {
     return super.getDeployTransaction(overrides || {});

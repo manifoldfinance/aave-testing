@@ -41,6 +41,6 @@
 
 Update the file simulations.json and set to `true` the value disabled.
 
-### License 
+### License
 
 Apache-2.0
